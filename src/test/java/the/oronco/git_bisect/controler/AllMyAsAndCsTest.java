@@ -15,7 +15,7 @@ import org.springframework.test.web.servlet.MockMvc;
  */
 @SpringBootTest
 @AutoConfigureMockMvc
-class AllMyAsTest {
+class AllMyAsAndCsTest {
 
     @Test
     void allMyAs(@Autowired MockMvc mvc) throws Exception {
